@@ -1,0 +1,50 @@
+@import url(https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Noto+Sans+SC:wght@100..900&display=swap);
+
+body{
+font-size : 25px;
+background-color: rgb(50,10,10);
+}
+
+.main{
+    max-width: 1500px;
+    margin: 0 auto;
+    padding : 25px;
+    display:flex;
+    text-align:center;
+    justify-content: center;
+}
+
+.img{
+    border-radius: 5%;
+    width: 500px;
+}
+
+.text{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    align-self: center;
+    padding: 50px;
+    color : rgb(100,100,120);
+}
+
+.description{
+    font-size: 17px;
+    color: rgb(22, 22, 22);
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.836);
+    max-width: 850px;
+    padding: 20px;
+    background-color: #a71111;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.description:hover{
+    color:crimson;
+    font-size: 20px;
+    background-color: blueviolet;
+}
+
+#brother{
+    font-size: 200px;
+    color: aqua;
+    justify-content: center;
+}
